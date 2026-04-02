@@ -15,7 +15,7 @@
         <ul class="header__links-list">
           <li 
             class="header__links-list-item 
-            header__links-list-item_no-bullit">
+            list-item_no-bullit">
               <a class="header__link header__link_active">главная</a>
           </li>
           <li class="header__links-list-item">
@@ -77,7 +77,6 @@
                 </p>
             </article>
             </a>
-            
           </li>
           <li class="lots__card-list-item">
             <a class="card-link">
@@ -116,23 +115,24 @@
         <a href="#0" class="lots__look-more-link">посмотреть больше</a>
       </section>
       <section class="about">
-        <div>
+        <div class="about__logo">
           <img
-            class=""
-            src="./images/logo-white.svg"
+            class="about__logo-image"
+            src="/images/logo-white.svg"
             alt="Логотип в белом цвете"
           />
         </div>
-        <div>
-          <h3>Об аукционе</h3>
-          <p>
+        <div class="test">
+          <h3 class="about__title uppercase">Об аукционе</h3>
+          <div class="about__text-position">
+          <p class="about__text">
             Здесь вы не встретите очередное пафосное собрание невероятно дорогого 
             антиквариата. Наши лоты вообще не должны были попасть ни на один аукцион. 
             Потому что кому нужен дневник девочки-подростка или картина, которую может 
             нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные 
             любителями?
           </p>
-          <p>
+          <p class="about__text">
             Слишком сложные или, наоборот, слишком простые. Опережающие своё время. 
             В пух и прах растерзанные критиками. Непринятые и непонятые. Когда-то они 
             казались просто неудачными. Но, несмотря на критику, кажущуюся простоту или 
@@ -140,57 +140,58 @@
             Когда в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти 
             лоты стали культовыми. 
           </p>
+          </div>
         </div>
       </section>
     </main>
     <footer class="footer">
-        <ul>
-          <li>
-            <a href="tel:+99999999999">+99999999999</a>
+        <ul class="footer__adress list-item_no-bullit">
+          <li class="footer__adress-item">
+            <a class="footer__adress-link" href="tel:+99995555555">+9 999 555 5555</a>
           </li>
-          <li>
-            <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+          <li class="footer__adress-item">
+            <a class="footer__adress-link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
           </li>
-          <li>
-            <div>наб. Принсенграхт 263- 265, Амстердам</div>
+          <li class="footer__adress-item">
+            <div class="footer__adress-link">наб. Принсенграхт 263- 265, Амстердам</div>
           </li>
         </ul>
-      <nav>
-        <ul>
-          <li>
-            <a>Главная</a>
+      <nav class="footer__menu ">
+        <ul class="footer__menu-list list-item_no-bullit">
+          <li class="footer__menu-list-item">
+            <a class="footer__menu-link footer__link_active">главная</a>
           </li>
-          <li>
-            <a>посмотреть лоты</a>
+          <li class="footer__menu-list-item">
+            <a class="footer__menu-link">посмотреть лоты</a>
           </li>
-          <li>
-            <a>об аукционе</a>
+          <li class="footer__menu-list-item">
+            <a class="footer__menu-link">об аукционе</a>
           </li>
         </ul>
       </nav>
-      <ul>
-        <li>
-          <a>
+      <ul class="footer__social-list list-item_no-bullit">
+        <li class="footer__social-list-item">
+          <a class="footer__social-link">
             <img 
-              class=""
+              class="footer__social-icon"
               src="./images/yt.svg"
               alt="логотип ютуб"
             />
           </a>
         </li>
-          <li>
-          <a>
+          <li class="footer__social-list-item">
+          <a class="footer__social-link">
             <img 
-              class=""
+              class="footer__social-icon"
               src="./images/vk.svg"
               alt="Логотип вконтакте"
             />
           </a>
         </li>
-          <li>
-          <a>
+          <li class="footer__social-list-item">
+          <a class="footer__social-link">
             <img 
-              class=""
+              class="footer__social-icon"
               src="./images/pinterest.svg"
               alt="Логотип pinterest"
             />
