@@ -7,7 +7,7 @@ body {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  margin: 95px 30px;
+  margin: 91px 30px;
 }
 
 .header__menu {
