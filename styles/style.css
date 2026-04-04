@@ -56,17 +56,10 @@ body {
   height: 105px;
 }
 
-.header__address {
+.address {
   display: flex;
   flex-direction: column;
   justify-self: end;
-  align-items: flex-start;
-  max-width: 240px;
-  margin: 0 20px 4px 0;
-  list-style: none;
-}
-
-.address__item {
   font-family: "Raleway", serif, sans-serif;
   font-weight: 400;
   font-size: 18px;
@@ -74,6 +67,12 @@ body {
   text-underline-offset: 3px;
   text-decoration-thickness: 2px;
   font-style: normal;
+}
+
+.header__address {
+  align-items: flex-start;
+  max-width: 240px;
+  margin: 0 20px 4px 0;
 }
 
 .cover {
@@ -196,6 +195,7 @@ body {
 .card-link {
   display: block;
   height: 100%;
+  text-decoration: none;
 }
 
 .card {
@@ -319,8 +319,6 @@ body {
 }
 
 .footer__address {
-  display: flex;
-  flex-direction: column;
   justify-self: end;
   max-width: 280px;
   margin-left: 50px;
@@ -335,6 +333,7 @@ body {
   text-decoration: underline;
 }
 
+
 .footer__link_active {
   text-decoration: none;
 }
@@ -346,10 +345,6 @@ body {
   padding: 3px 40px 0 0;
   gap: 2px;
   text-underline-offset: 3px;
-}
-
-.footer__link-active {
-  text-decoration: none;
 }
 
 .footer__social-list {
